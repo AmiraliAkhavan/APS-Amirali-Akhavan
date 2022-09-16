@@ -1,0 +1,243 @@
+body {
+    background-color: #162036;
+    font-family: sans-serif,Arial;
+    height: auto;
+    width: auto;
+    color: white;
+}
+/* **************** Nav-bar **************** */
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 38%;
+    border-bottom: 2px blue solid;
+}
+header h2 a {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    left: -40px;
+    text-decoration: none;
+}
+nav span {
+    color: orange;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li :hover{
+    color: #754ded;
+}
+.search-bar {
+    position: absolute; 
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%,-50%);
+    background: orange;
+    height: 30px;
+    border-radius: 50px;
+    padding: 7px;
+}
+.search-bar:hover > .srh-txt {
+    width: 150px;
+}
+.srh-btn {
+    display: flex;
+    float: right;
+    color: #754ded;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(22, 8, 80);
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.srh-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+
+/* ****************** End of Nav ****************** */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background: orange;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 85vw;
+    margin:auto;
+    margin-top: 10px;
+    overflow: auto;
+}
+article p {
+    display: flex;
+    color: white;
+    text-align: justify;
+}
+article h3 {
+    color: white;
+}
+/* ****************** Footer ****************** */
+footer {
+    border: black;
+    border-radius: 20px;
+    color: #162036ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: orange;
+    margin-top: 10px;
+}
+.fcontainer {
+    max-width: 1170px;
+    margin: auto;
+}
+.f-ul {
+    list-style: none;
+}
+.fcolumn {
+    width: 25%;
+    padding: px;
+}
+.frow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fcolumn h4 {
+    font: 16px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-left: 38px;
+}
+.social {
+    margin-left: 40px;
+}
+/* ****************** End of Footer ****************** */
+.laptop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pp {
+    color: rgb(0, 197, 0);
+}
+.np {
+    color: red;
+}
+table,td {
+    border: 1px solid orange;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(0, 0, 0);
+}
+.laptoppara {
+    justify-content: center;
+}
+h3 > a {
+    color: chocolate;
+}
+.recgames img {
+    display: flex;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+figcaption {
+    background-color: rgb(214, 139, 0);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+figure > img {
+    max-width: 220px;
+    max-height: 150px;
+}
+/* ****************** News Page ****************** */
+.news {
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+.news article {
+    background-color: orange;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.news-img1 {
+    width: 100%;
+    height: 150px;
+    background-image: url(https://assets-prd.ignimgs.com/2022/09/15/re4-leon-blogroll-01-720-1655160857566-1663250513145.jpg?width=282&crop=16%3A9);
+    background-size: cover;
+}
+.news-img2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(https://assets-prd.ignimgs.com/2022/09/15/everything-on-xbox-game-pass-update-new-ign-september-2022-1663235830941.png?width=282&crop=16%3A9);
+    background-size: cover;
+}
+.news-img3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(https://assets-prd.ignimgs.com/2022/09/15/screenshot-104-1663253093760.png?width=282&crop=16%3A9);
+    background-size: cover;
+}
+.news-img4 {
+    width: 100%;
+    height: 150px;
+    background-image: url(https://assets-prd.ignimgs.com/2022/09/15/star-wars-eclipse-1663256683211.jpg?width=282&crop=16%3A9);
+    background-size: contain;
+}
+.news h3 {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+}
+.pnews {
+    color: black;
+    justify-content: center;
+}
