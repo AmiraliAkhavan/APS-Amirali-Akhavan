@@ -1,4 +1,18 @@
+@import url(//db.onlinewebfonts.com/c/0b0a8c345731751b990403a2cf40fbec?family=IRAN+Sans);
+body {
+    font-family: IRANSens;
+}
+
 div .items {
     display: flex;
     justify-content: end;
+}
+img {
+    height: 400px;
+}
+i {
+    color: gray;
+}
+i:hover {
+    color: black;
 }
