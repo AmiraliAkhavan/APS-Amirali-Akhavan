@@ -2,14 +2,16 @@
 body {
     font-family: IRANSens;
 }
-body header .container-fluid{
-    z-index: 1;
-    position: fixed;
-    background-color: #fff;
-    height: 45px;
-    left: 0;
-    top: 0;
+
+header {
+    z-index: 10;
+
 }
+
+main {
+    z-index: 1;
+}
+
 div .items {
     display: flex;
     justify-content: end;
