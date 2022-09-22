@@ -2,17 +2,63 @@
 body {
     font-family: IRANSens;
 }
-
+body header .container-fluid{
+    z-index: 1;
+    position: fixed;
+    background-color: #fff;
+    height: 45px;
+    left: 0;
+    top: 0;
+}
 div .items {
     display: flex;
     justify-content: end;
 }
 img {
-    height: 400px;
+    height: 420px;
 }
 i {
     color: gray;
 }
-i:hover {
+nav i:hover {
     color: black;
+}
+.card {
+    box-shadow: 1px 1px 4px 1px rgba(167 ,167 ,167);
+}
+.card img {
+    display: flex;
+    height: 180px;
+    align-items: center;
+}
+.pish {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    padding: 0px;
+    height: 30px;
+
+
+}
+span button{
+    color:  rgb(214, 26, 26);
+}
+.card-text {
+    font-size: smaller;
+}
+.stars {
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+    color: rgb(255, 215, 0);
+}
+.row .col{
+    display: flex;
+        justify-content: space-around ;
+}
+.starss {
+    position: relative;
+        bottom: 30px;
+        left: 25px;
+        color: rgb(83, 83, 83);
 }
