@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    z-index: 10;
+    z-index: 1;
 
 }
 
@@ -16,51 +16,132 @@ div .items {
     display: flex;
     justify-content: end;
 }
+
 img {
     height: 420px;
 }
+
 i {
     color: gray;
 }
+
 nav i:hover {
     color: black;
 }
+
 .card {
     box-shadow: 1px 1px 4px 1px rgba(167 ,167 ,167);
+    margin-top: 2rem;
 }
+
 .card img {
     display: flex;
     height: 180px;
     align-items: center;
+    padding-right: 45px;
+    padding-left: 45px;
 }
+
 .pish {
     display: flex;
     justify-content: end;
     margin-top: 5px;
     padding: 0px;
     height: 30px;
-
-
+    margin-right: 2rem;
 }
+
 span button{
     color:  rgb(214, 26, 26);
 }
+
 .card-text {
-    font-size: smaller;
+    font-size: medium;
 }
+
 .stars {
     position: relative;
     bottom: 30px;
     left: 25px;
     color: rgb(255, 215, 0);
 }
+
 .row .col{
     display: flex;
-        justify-content: space-around ;
+    justify-content: space-around ;
 }
+
+.row .col .card {
+    width: 18rem;
+}
+
 .starss {
     position: relative;
         bottom: 30px;
         left: 25px;
         color: rgb(83, 83, 83);
+}
+
+.down-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.down {
+    display: flex;
+}
+
+
+.hidden {
+    width: 3rem;
+    display: flex;
+    margin:0 0 1rem 1rem;
+    padding:  1rem ;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: rgb(255, 255, 255);
+    transition-property: width;
+    transition-duration: .5s;
+    align-items: center;
+}
+.hidden i {
+    color: rgb(255, 255, 255);
+}
+
+.descrip {
+    font-size: 13px;
+}
+
+.hidden span{
+    opacity: 0;
+    transition-property: text;
+    transition-delay: 1.5s;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hidden:hover {
+    width: 4.5rem;
+    border-radius: 30px;
+    
+}
+
+.hidden:hover span {
+    opacity: 1;
+}
+
+.money {
+    display: flex;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.mugs {
+    text-decoration: underline red;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
 }
