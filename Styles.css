@@ -1,17 +1,26 @@
+@media screen and (max-width: 850px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftpart {
+        width: 100%;
+    }
+}
+
 @import url(//db.onlinewebfonts.com/c/0b0a8c345731751b990403a2cf40fbec?family=IRAN+Sans);
 body {
     font-family: IRANSens;
 }
-
 header {
     z-index: 1;
 
 }
 
 main {
-    z-index: 1;
+    margin: auto;
 }
-
 div .items {
     display: flex;
     justify-content: end;
@@ -144,4 +153,44 @@ span button{
     display: flex;
     justify-content: flex-end;
     margin-top: 2rem;
+}
+
+.second {
+    margin-bottom: 3rem;
+}
+
+/************************** footer **************************/
+
+.footer-container {
+    background-color: rgb(83 ,83 ,83);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+ .aboutus {
+    font-size: 28px;
+    font-weight: bold;
+ }
+
+.rightpart {
+    width: 60%;
+    padding: 3rem 5rem 6rem 3rem;
+}
+
+.leftpart {
+    width: 40%;
+    padding: 3rem 3rem 6rem 3rem;
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding-left: 20rem;
+}
+.social li {
+    margin: 20px;
+}
+.social i {
+    color: white;
 }
