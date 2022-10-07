@@ -24,6 +24,7 @@ main {
 div .items {
     display: flex;
     justify-content: end;
+    font-size: large;
 }
 
 img {
